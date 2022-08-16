@@ -11,6 +11,11 @@
         <li>{{ color }}</li>
         {% endfor %}
     </ul>
+    {% if 'Orange' in colors %}
+        <p>Orange is in the list</p>
+    {% else %}
+        <p>Orange isn't in the list</p>
+    {% endif %}
     <img src="{{ url_for('static', filename='img/hello_world.png') }}" alt="Hello world">
 </body>
 </html>
