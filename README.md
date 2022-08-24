@@ -8,7 +8,7 @@
 ***
     HOST=
     PORT=
-    FLASK_ENV=
+    FLASK_DEBUG=
     DEBUG=
     SECRET_KEY=
 ***

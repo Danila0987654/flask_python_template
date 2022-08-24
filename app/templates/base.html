@@ -6,16 +6,7 @@
     <title>Flask Project</title>
 </head>
 <body>
-    <ul>
-        {% for color in colors %}
-        <li>{{ color }}</li>
-        {% endfor %}
-    </ul>
-    {% if 'Orange' in colors %}
-        <p>Orange is in the list</p>
-    {% else %}
-        <p>Orange isn't in the list</p>
-    {% endif %}
-    <img src="{{ url_for('static', filename='img/hello_world.png') }}" alt="Hello world">
+    {% block base %}
+    {% endblock %}
 </body>
 </html>

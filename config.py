@@ -9,6 +9,6 @@ class Config:
 
     FLASK_HOST = os.getenv("HOST")
     FLASK_PORT = os.getenv("PORT")
-    FLASK_ENV = os.getenv('FLASK_ENV')
+    FLASK_ENV = os.getenv('FLASK_DEBUG')
     DEBUG = os.getenv("DEBUG").lower() in _true_values
     SECRET_KEY = os.getenv("SECRET_KEY")
