@@ -1,6 +1,7 @@
 
-# Flask Project Test
-This project was created for learning Flask
+# Flask Project Template
+This project was created how template for
+future projects
 
 
 ## Table of Contents
