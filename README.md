@@ -1,22 +1,21 @@
 
 # Flask Project Test
-
 This project was created for learning Flask
 
 
 ## Table of Contents
-
 - [Used Technologies](#used-technologies)
 - [Environment Variables](#environment-variables)
 - [Run Locally](#run-locally)
-## Used Technologies
+- [Additional Functions](#additional-functions)
 
+
+## Used Technologies
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
 
 ## Environment Variables
-
 To run this project, you will need to add the 
 following environment variables 
 to your .env file
@@ -32,7 +31,6 @@ to your .env file
 
 
 ## Run Locally
-
 Clone the project
 
 ```bash
@@ -71,4 +69,12 @@ Run project:
 
 ```bash
 flask run
+```
+
+
+## Additional Functions
+Fill a database
+
+```bash
+python3 fill_db.py
 ```
