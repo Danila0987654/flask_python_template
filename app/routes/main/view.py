@@ -1,5 +1,6 @@
 from flask import render_template
 
+from app.models.user import User
 from app.routes.main import bp
 
 
@@ -11,4 +12,5 @@ def main():
 
 @bp.route('/about')
 def about():
-    return render_template('content/about.html')
+    names = User.query.all()
+    return render_template('content/about.html', names=names)

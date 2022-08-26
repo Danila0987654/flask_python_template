@@ -1,5 +1,10 @@
 {% extends 'base.html' %}
 {% block base %}
     <h1>About page</h1>
+    <ul>
+        {% for name in names %}
+            <li>{{ name['name'] }}</li>
+        {% endfor %}
+    </ul>
     <img src="{{ url_for('static', filename='img/hello_world.png') }}" alt="Hello world">
 {% endblock %}
