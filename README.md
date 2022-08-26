@@ -36,39 +36,39 @@ to your .env file
 Clone the project
 
 ```bash
-  git clone git@github.com:Danila0987654/python_flask_test_project.git
+git clone git@github.com:Danila0987654/python_flask_test_project.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd python_flask_test_project
+cd python_flask_test_project
 ```
 
 Create venv, activate it and upgrade pip:
 
 ```bash
-  python3 -m venv venv
-  . ./venv/bin/activate
-  pip install -U pip
+python3 -m venv venv
+. ./venv/bin/activate
+pip install -U pip
 ```
 
 Install dependences:
 
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Init and migrate db:
 
 ```bash
-  flask db init
-  flask db migrate
-  flask db upgrade
+flask db init
+flask db migrate
+flask db upgrade
 ```
 
 Run project:
 
 ```bash
-  flask run
+flask run
 ```
