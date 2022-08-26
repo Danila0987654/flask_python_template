@@ -9,6 +9,7 @@ class Config:
 
     FLASK_HOST = os.getenv("HOST")
     FLASK_PORT = os.getenv("PORT")
-    FLASK_ENV = os.getenv('FLASK_DEBUG')
-    DEBUG = os.getenv("DEBUG").lower() in _true_values
+    FLASK_DEBUG = os.getenv("FLASK_DEBUG").lower() in _true_values
     SECRET_KEY = os.getenv("SECRET_KEY")
+    SQLALCHEMY_DATABASE_URI = os.getenv('DB')
+    SQLALCHEMY_TRACK_MODIFICATIONS = os.getenv('SQLALCHEMY_TRACK_MODIFICATIONS').lower() in _true_values
