@@ -14,7 +14,6 @@ db.init_app(app)
 migr.init_app(app)
 
 from app.routes.errors import bp as error_bp
-print(error_bp)
 app.register_blueprint(error_bp)
 
 from app.routes.main import bp as main_bp
