@@ -74,7 +74,7 @@ flask run
 
 
 ## Additional Functions
-Fill a database
+Fill a database from a file
 
 ```bash
 python3 fill_db.py
